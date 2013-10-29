@@ -3,7 +3,7 @@
 using namespace std;
 
 int i; 
-/* Define a type point to be a struct with integer members x, y */
+/* Define a type point to be a struct with integer members x, y - nada*/
 typedef struct {
    char    x;
    int    y;
