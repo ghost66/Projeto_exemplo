@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int i; 
+/* Define a type point to be a struct with integer members x, y */
+typedef struct {
+   char    x;
+   int    y;
+} hibrido;
+ hibrido vet[5];
+ 
+int main() {
+ 
+for (i=0;i<4;i++) {
+	 vet[i] = {'a',i};
+	cout << vet[i]; 
+	 }
+
+/* Define a variable p of type point, and initialize all its members inline! */
+   // hibrido p = {'a',2};
+ 
+
+//      cout << "The members are :" <<  p.x << "  " << p.y;
+}
+
